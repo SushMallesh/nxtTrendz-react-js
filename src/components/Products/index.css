@@ -1,0 +1,14 @@
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-image {
+  margin-top: 20px;
+  width: 100px;
+}
+@media (min-width: 768px) {
+  .products-image {
+    width: 200px;
+  }
+}
